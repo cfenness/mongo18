@@ -56,14 +56,14 @@ $(document).ready(function() {
     var emptyAlert = $(
       [
         "<div class='alert alert-warning text-center'>",
-        "<h4>Uh Oh. Looks like we don't have any saved articles.</h4>",
+        "<h4>No Saved Articles</h4>",
         "</div>",
         "<div class='panel panel-default'>",
         "<div class='panel-heading text-center'>",
-        "<h3>Would You Like to Browse Available Articles?</h3>",
+        "<h3>Should we go find some?</h3>",
         "</div>",
         "<div class='panel-body text-center'>",
-        "<h4><a href='/'>Browse Articles</a></h4>",
+        "<h4><a href='/'>Look for Articles</a></h4>",
         "</div>",
         "</div>"
       ].join("")
